@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C2F8B07E-0E59-4C5F-93BD-7E53494D6F2B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YmdAndHmPicker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1E3F9E05-1993-44E0-90C3-B289A495BC49</key>
+		<string>svn://10.111.43.167/IPCC/92%E6%97%A0%E7%BA%BF%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E5%B9%B3%E5%8F%B0%E6%89%A9%E5%B1%95/source/csgDLT_IOS/mPortal</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YmdAndHmPicker/YmdAndHmPicker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1E3F9E05-1993-44E0-90C3-B289A495BC49</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>1E3F9E05-1993-44E0-90C3-B289A495BC49</key>
+		<string>svn://10.111.43.167/IPCC</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://10.111.43.167/IPCC/92%E6%97%A0%E7%BA%BF%E7%A7%BB%E5%8A%A8%E5%BA%94%E7%94%A8%E5%B9%B3%E5%8F%B0%E6%89%A9%E5%B1%95/source/csgDLT_IOS/mPortal/YmdAndHmPicker/YmdAndHmPicker.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1E3F9E05-1993-44E0-90C3-B289A495BC49</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1E3F9E05-1993-44E0-90C3-B289A495BC49</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xcode_project</string>
+		</dict>
+	</array>
+</dict>
+</plist>

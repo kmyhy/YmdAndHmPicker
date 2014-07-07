@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YmdAndHmPicker">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="dO2-rX-low" customClass="UIControl">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="dP3-8e-zao">
+                            <rect key="frame" x="0.0" y="120" width="320" height="206"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <pickerView contentMode="scaleToFill" id="nNT-jJ-N7I">
+                                    <rect key="frame" x="0.0" y="44" width="320" height="162"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="iN0-l3-epB" id="b6M-ec-2KM"/>
+                                        <outlet property="delegate" destination="iN0-l3-epB" id="9WG-5H-TJt"/>
+                                    </connections>
+                                </pickerView>
+                                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5CU-Vy-pFz">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    <items>
+                                        <barButtonItem title="关闭" id="7Nf-Er-ycf">
+                                            <connections>
+                                                <action selector="cancelAction:" destination="iN0-l3-epB" id="ooU-1d-kur"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem style="plain" systemItem="flexibleSpace" id="gQW-wr-XvC"/>
+                                        <barButtonItem title="设置" id="JIc-XH-R0L">
+                                            <connections>
+                                                <action selector="okAction:" destination="iN0-l3-epB" id="kCQ-LC-XNK"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </items>
+                                </toolbar>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="hide" destination="iN0-l3-epB" eventType="touchUpInside" id="AL9-o4-CAn"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="aPicker" destination="nNT-jJ-N7I" id="HRD-Ob-kPX"/>
+                <outlet property="contentView" destination="dO2-rX-low" id="AMm-KN-ig7"/>
+                <outlet property="pickerView" destination="dP3-8e-zao" id="Mvi-HH-Ab8"/>
+                <outlet property="toolbar" destination="5CU-Vy-pFz" id="4kS-TL-XcR"/>
+            </connections>
+        </view>
+    </objects>
+</document>
